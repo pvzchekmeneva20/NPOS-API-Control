@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Скачиваем архив в /tmp
-ARCHIVE_URL="https://github.com/pvzchekmeneva20/NPOS-API-Control/releases/download/Publish/Last.7z"
+ARCHIVE_URL="https://github.com/pvzchekmeneva20/NPOS-API-Control/releases/latest/download/Last.7z"
 ARCHIVE_PATH="/tmp/Last.7z"
 wget "$ARCHIVE_URL" -O "$ARCHIVE_PATH"
 
